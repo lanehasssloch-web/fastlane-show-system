@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900;
+}
+
+.tiptap {
+  min-height: 20rem;
+  height: 100%;
+  outline: none;
+}
+
+.tiptap p {
+  margin: 0.4rem 0;
+}
